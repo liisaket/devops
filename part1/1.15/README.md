@@ -1,6 +1,6 @@
-# React App For Docker ex. 1.15
+# React App For Docker 1.15-1.16
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Simple React App for ex. 1.15-1.16, bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 Install dependencies in the project directory:
 ```console
@@ -19,5 +19,8 @@ docker command to build & run:
 docker build . -t 1.15 && docker run -p 3000:3000 1.15
 ```
 
-### Docker Hub
+### 1.15 DOCKER HUB
 https://hub.docker.com/repository/docker/liisaket/1.15
+
+### 1.16 CLOUD DEPLOYMENT
+https://devops-tvy5.onrender.com/
