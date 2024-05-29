@@ -1,0 +1,5 @@
+services:
+  simple-exercise:
+    image: devopsdockeruh/simple-web-service
+    volumes:
+      - /usr/src/app/text.log

@@ -1,0 +1,12 @@
+/example-app
+
+/2.03/*
+!/2.03/docker-compose.yml
+
+# Ignore all files in the 2.05 folder
+/2.05/*
+
+# Except for the following files
+!/2.05/commands.md
+!/2.05/docker-compose.yml
+!/2.05/image.png
