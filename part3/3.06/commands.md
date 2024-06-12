@@ -1,6 +1,6 @@
 3.06
 
-old version:
+previous version (separate RUN commands):
 ```
 docker images
 REPOSITORY        TAG           IMAGE ID       CREATED             SIZE
@@ -8,7 +8,7 @@ frontend          latest        4309303f3bad   2 minutes ago       1.27GB
 backend           latest        c81eeaaa9cde   4 minutes ago       1.07GB
 ```
 
-new version:
+new version (one RUN command, remove useless stuff):
 ```
 docker images
 REPOSITORY        TAG           IMAGE ID       CREATED              SIZE
